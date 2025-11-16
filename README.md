@@ -6,7 +6,7 @@
 [pub-badge]: https://img.shields.io/pub/v/simple_gravatar_fetch.svg
 [pub-link]: https://pub.dev/packages/simple_gravatar_fetch
 [license-badge]: https://img.shields.io/github/license/TalhaAksoy/Flutter-Gravatar
-[license-link]: https://github.com/TalhaAksoy/Flutter-Gravatar/blob/main/LICENSE
+[license-link]: https://github.com/TalhaAksoy/Simple-Gravatar-Fetch/blob/main/LICENSE
 
 A basic package for fetching user profile pictures or profile info from the Gravatar API.
 
