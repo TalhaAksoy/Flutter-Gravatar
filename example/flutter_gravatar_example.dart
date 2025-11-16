@@ -1,4 +1,4 @@
-import 'package:flutter_gravatar/flutter_gravatar.dart';
+import 'package:simple_gravatar_fetch/simple_gravatar_fetch.dart';
 
 void main(List<String> arguments) async {
   const email = 'acme@mail.com';

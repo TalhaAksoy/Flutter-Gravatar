@@ -1,5 +1,3 @@
-## 2.0.3
+## 2.0.4
 
-- Initial version.
-- getGravatarProfile function added , return all gravatar profile data
-- getGravatar function added , return only user profile picture data
+- Change Name
