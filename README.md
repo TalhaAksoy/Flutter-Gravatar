@@ -56,7 +56,7 @@ Fetches the user's profile picture as a `Uint8List`. This can be used directly w
 import 'dart:typed_data'; // For Uint8List
 
 void main() async {
-  const email = 'talha-_-0@hotmail.com';
+  const email = 'acme@mail.com';
 
   final Uint8List? imageData = await getGravatar(
     email,
@@ -81,7 +81,7 @@ The `getGravatar` function also allows you to save the image directly to disk.
 
 ```dart
 await getGravatar(
-  'talha-_-0@hotmail.com',
+  'acme@mail.com',
   size: 500,
   saveToFile: true,
   outputPath: 'profile_picture.jpg',
