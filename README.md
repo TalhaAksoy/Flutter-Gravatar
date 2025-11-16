@@ -1,14 +1,14 @@
-# flutter_gravatar
+# simple_gravatar_fetch
 
 [![pub version][pub-badge]][pub-link]
 [![license][license-badge]][license-link]
 
-[pub-badge]: https://img.shields.io/pub/v/flutter_gravatar.svg
-[pub-link]: https://pub.dev/packages/flutter_gravatar
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license-link]: ./LICENSE
+[pub-badge]: https://img.shields.io/pub/v/simple_gravatar_fetch.svg
+[pub-link]: https://pub.dev/packages/simple_gravatar_fetch
+[license-badge]: https://img.shields.io/github/license/TalhaAksoy/Flutter-Gravatar
+[license-link]: https://github.com/TalhaAksoy/Flutter-Gravatar/blob/main/LICENSE
 
-A simple, pure Dart package for fetching user profiles and avatars from the Gravatar API.
+A basic package for fetching user profile pictures or profile info from the Gravatar API.
 
 This package is written in **100% Pure Dart** and can be used in Flutter, Dart (Server-side), or Dart (Command-line) projects.
 
@@ -27,7 +27,7 @@ Add the package to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_gravatar: ^1.0.0 # Check pub.dev for the latest version
+  simple_gravatar_fetch: ^2.0.4 # Check pub.dev for the latest version
 ```
 
 And install the packages:
@@ -45,7 +45,7 @@ dart pub get
 Simply import the package to use it:
 
 ```dart
-import 'package:flutter_gravatar/flutter_gravatar.dart';
+import 'package:simple_gravatar_fetch/simple_gravatar_fetch.dart';
 ```
 
 ### 1. Getting an Avatar Image (`getGravatar`)
@@ -126,6 +126,7 @@ void main() async {
 Returns the avatar image as a `Uint8List`.
 
 **Optional Parameters:**
+
 * `int? size`: Image size in pixels (1-2048).
 * `String? defaultImage`: Fallback image to use if not found ('mp', 'identicon', '404', or a URL).
 * `String? rating`: Maximum allowed image rating ('g', 'pg', 'r', 'x').
@@ -140,4 +141,4 @@ Returns the public profile associated with the email as a JSON `Map`. Returns `n
 
 ## 📄 License
 
-This package is released under the [MIT License](./LICENSE).
+This package is released under the [MIT License](https://github.com/TalhaAksoy/Flutter-Gravatar/blob/main/LICENSE).
